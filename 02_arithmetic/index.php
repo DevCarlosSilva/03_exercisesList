@@ -1,30 +1,27 @@
+<!-- Create an algorithm that receives two numbers and shows the addition, subtraction, multiplication and division of the numbers read. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>02_arithmetic</title>
   <link rel="stylesheet" href="style.css">
-  
-  <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
 </head>
 <body>
-  <form action="" method="GET">
-  <input type="number" name="numero1">
-  <input type="number" name="numero2">
+  <form action="" method="get">
+  <input type="number" name="number1">
+  <input type="number" name="number2">
   <input type="submit" value="Enviar">
   </form>
 
   <?php
-  if(isset($_GET["numero1"]) && isset($_GET["numero2"])){
-  $numero1 = $_GET["numero1"];
-  $numero2 = $_GET["numero2"];
-  $soma = $numero1 + $numero2;
-  $subtracao = $numero1 - $numero2;
-  $multiplicacao = $numero1 * $numero2;
-  $divisao = $numero1 / $numero2;
+  if(isset($_GET["number1"]) && isset($_GET["number2"])){
+  $number1 = $_GET["number1"];
+  $number2 = $_GET["number2"];
+  $soma = $number1 + $number2;
+  $subtracao = $number1 - $number2;
+  $multiplicacao = $number1 * $number2;
+  $divisao = $number1 / $number2;
   echo "Soma: " . $soma . "<br>" . "Subtração: " . $subtracao . "<br>" . "Multiplicação: " . $multiplicacao . "<br>" . "Divisão: " . $divisao;
   }  
   ?>
