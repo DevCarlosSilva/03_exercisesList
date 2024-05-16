@@ -1,0 +1,2 @@
+<!-- The “APRENDER” school pays its teachers per hour/class. Make an algorithm that calculates and displays a teacher's salary. It is known that the hourly/class price follows the table below:
+Level 1 Teacher R$12.00 per hour/class Level 2 Teacher R$17.00 per hour/class Level 3 Teacher R$25.00 per hour/class -->

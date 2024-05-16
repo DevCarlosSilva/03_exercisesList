@@ -1,0 +1,107 @@
+1. Write an algorithm that receives two numbers and displays the result of their sum.
+ 
+2. Create an algorithm that receives two numbers and at the end shows the addition, subtraction, multiplication and division of the numbers read.
+ 
+3. Write an algorithm to determine the average consumption of a car, providing the total distance traveled by the car and the total amount of fuel used.
+ 
+4. Write an algorithm that reads the name of a salesperson, his fixed salary and the total sales made by him in the month (in cash). Knowing that this salesperson earns a 15% commission on sales made, enter his name, fixed salary and salary at the end of the month.
+ 
+5. Write an algorithm that reads a student's name and the grades of the three tests he obtained during the semester. At the end, inform the student's name and their average (arithmetic).
+ 
+6. Read two values for variables A and B, and exchange the values so that variable A now has the value of variable B and variable B now has the value of variable A. Present the exchanged values.
+ 
+7. Read a temperature in degrees Celsius and display it converted into degrees Fahrenheit. The conversion formula is:
+F = C x 1.8 + 32, with F being the temperature in Fahrenheit and C being the temperature in Celsius.
+ 
+8. Develop an algorithm that displays the conversion value in reais (R$) of a value read in dollars (US$). The algorithm must request the value of the dollar exchange rate and also the amount of dollars available to the user.
+ 
+9. Create an algorithm that receives an amount that was deposited and displays the amount with income after one month. Consider the savings interest fixed at 0.70% a. m.
+ 
+10. The store Mamão com Açúcar is selling its products in 5 (five) interest-free installments. Create an algorithm that receives the value of a purchase and shows the value of the installments.
+ 
+11. Create an algorithm that receives the cost price of a product and shows the sales value. It is known that the cost price will be increased according to a percentage informed by the user.
+ 
+12. The cost to the consumer of a new car is the sum of the factory cost, the distributor's percentage and taxes (taxes applied first to the factory cost, and then the distributor's percentage to the result). Assuming that the distributor's percentage is 28% and taxes are 45%. Write an algorithm that reads the factory cost of a car and reports the cost to the consumer.
+ 
+13. Write an algorithm that receives a number and displays a message if this number is greater than 10.
+ 
+14. Write an algorithm that reads two different integer values and reports which is larger.
+ 
+15. Write an algorithm that receives a number and says if this number is in the range between 100 and 200.
+ 
+16. Write an algorithm that reads the name and three grades obtained by a student during the semester. Calculate your average (arithmetic), enter the name and mention approved (average >= 7), Failed (average <= 5) and Recovery (average between 5.1 and 6.9).
+ 
+17. Read 80 numbers and at the end inform how many number(s) are in the range between 10 (inclusive) and 150 (inclusive).
+ 
+18. Create an algorithm that receives the ages of 75 people and displays a message stating “of legal age” and “underage” for each person. Consider age 18 and over as an adult.
+ 
+19. Write an algorithm that reads the name and gender of 56 people and reports the name and whether they are male or female. At the end, report the total number of men and women.
+ 
+20. The car dealership “CARANGO VELHO” is selling its vehicles at a discount. Create an algorithm that calculates and displays the discount value and the amount to be paid by the customer for several cars. The discount must be calculated according to the year of the vehicle. Until 2000 - 12% and above 2000 - 7%. The system should ask if you want to continue calculating discount until the answer is: “(N) No”. Enter the total number of cars up to 2000 and the overall total.
+ 
+21. Write an algorithm that reads the data of “N” people (name, gender, age and health) and informs whether or not they are able to carry out mandatory military service. Enter the totals.
+ 
+22. Create an algorithm that receives the cost price and sales price of 40 products. Show as a result whether there was a profit, loss or draw for each product. Enter the average cost price and sales price.
+ 
+23. Create an algorithm that receives a number and displays a message if this number is greater than 80, less than 25 or equal to 40.
+ 
+24. Make an algorithm that takes “N” numbers and displays positive, negative or zero for each number.
+ 
+25. Make an algorithm that reads two numbers and identifies whether they are the same or different. If they are the same, print a message saying that they are the same. If they are different, inform which number is the largest, and a message that they are different.
+ 
+26. Make an algorithm that reads a number from 1 to 5 and writes it out. If the user enters a number that is not in this range, the message will be displayed: invalid number.
+
+27. The vehicle dealership “CARANGO” is selling its vehicles on discount. Create an algorithm that calculates and displays the value of the discount and the amount to be paid by the customer. The discount must be calculated on the value of the vehicle according to the fuel (alcohol – 25%, gasoline – 21% or diesel –14%). With vehicle value zero, data entry ends. Enter total discount and total paid by customers.
+ 
+28. Write an algorithm for a company that decides to give a salary adjustment to its 584 employees according to the following criteria:
+50% for those who earn less than three minimum wages;
+20% for those who earn between three and ten minimum wages;
+15% for those who earn more than ten to twenty minimum wages;
+10% for other employees.
+ 
+29. Read the employee's name, salary and minimum wage. Calculate your new adjusted salary. Write the employee's name, the adjustment and their new salary. Calculate how much the company will increase its payroll.
+ 
+30. Create an algorithm using switch/case, which receives the month number and displays the corresponding month. Validate invalid month.
+ 
+31. Make an algorithm that takes the name, age, gender and fixed salary of an employee. Show name and net salary:
+ 
+32. Write an algorithm that reads three distinct integer values and writes them in ascending order.
+ 
+33. Given three values A, B and C, where A and B are real numbers and C is a character, it is asked to print the result of the operation of A by B if C is an arithmetic operator symbol; otherwise an operator not defined message must be printed. Treat division by zero error.
+ 
+34. Write an algorithm that reads three integer values and checks whether they can be the sides of a triangle. If so, state what type of triangle they form: equilateral, isosceles or scalene.
+Property: The length of each side of a triangle is less than the sum of the lengths of the other two sides.
+Equilateral Triangle: one that has the lengths of the three sides equal;
+Isosceles triangle: one that has two equal side lengths. Therefore, every equilateral triangle is also isosceles;
+Scalene Triangle: one that has the lengths of its three sides different.
+ 
+35. The “APRENDER” school pays its teachers per hour/class. Make an algorithm that calculates and displays a teacher's salary. It is known that the hourly/class price follows the table below:
+Level 1 Teacher R$12.00 per hour/class Level 2 Teacher R$17.00 per hour/class Level 3 Teacher R$25.00 per hour/class
+ 
+36. Design an algorithm that, given the age of a swimmer. Please classify it into one of the following categories:
+Child A = 5 - 7 years Child B = 8 - 10 years Youth A = 11- 13 years Youth B = 14 - 17 years Senior = 18 - 25 years
+Display the message “age outside the age range” when it is another year not covered.
+ 
+37. Create an algorithm that calculates the value of a person's electricity bill. It is known that the calculation of the electricity bill follows the table below:
+Type of Customer KW/h Value
+	(Residence) 0.60
+	(Trade) 0.48
+	(Industry) 1.29
+ 
+38. Make an algorithm that reads a person's name, gender, height and age. Calculate and display your name and ideal weight according to the following characteristics of the person:
+ 
+39. In a Computer Science course, the student's grade is calculated from three grades assigned, respectively, to a laboratory work, a semester assessment and a final exam. Grades vary from 0 to 10 and the final grade is the weighted average of the three grades mentioned. The table below provides the weights: Laboratory Weight 2
+Semiannual assessment Weight 3
+Final exam Weight 5
+
+Given the name of a student, their registration number and the three grades mentioned above, develop an algorithm to calculate the final grade and classification of each student. The classification is given according to the table below:
+Final Grade Classification
+[8.10]
+[7.8]B
+[6.7]C
+[5.6] D
+[0.5] R
+
+Print the student's name, with their number, final grade and classification.
+ 
+40. An Insurance Company has nine categories of insurance based on the insured's age and occupation. Only people who are at least 17 years old and no older than 70 years old can purchase insurance policies. Regarding classes of occupations, three risk groups were defined. The table below provides the categories depending on age group and risk group. Given name, age and risk group, determine the category of the applicant to purchase such insurance. Print the name, age and category of the applicant, and, if the age is not within the required range, print a message.

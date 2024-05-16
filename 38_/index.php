@@ -1,0 +1,1 @@
+<!-- Make an algorithm that reads a person's name, gender, height and age. Calculate and display your name and ideal weight according to the following characteristics of the person: -->

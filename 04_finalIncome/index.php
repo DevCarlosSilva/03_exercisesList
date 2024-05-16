@@ -3,23 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>04_finalIncome</title>
   <link rel="stylesheet" href="style.css">
-  
-  <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
 </head>
 <body>
-  <form action="" method="GET">
-  <input type="text" name="nome" placeholder="Nome">
-  <input type="number" name="salarioFixo" placeholder="Salário fixo">
-  <input type="number" name="totalVendas" placeholder="Total de vendas">
-  <input type="submit" value="Enviar">
+  <form action="" method="get">
+  <input type="text" name="name" placeholder="Name">
+  <input type="number" name="fixedSalary" placeholder="Fixed salary">
+  <input type="number" name="salesAmount" placeholder="Sales amount">
+  <input type="submit" value="Submit">
   </form>
 
   <?php
-  if(isset($_GET["nome"]) && isset($_GET["salarioFixo"]) && isset($_GET["totalVendas"])){
+  if (isset($_GET["number1"]) && !empty($_GET["number1"]) && isset($_GET["number2"]) && !empty($_GET["number2"])) {
     $nome = $_GET["nome"];
     $salarioFixo = $_GET["salarioFixo"];
     $totalVendas = $_GET["totalVendas"];

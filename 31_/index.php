@@ -1,0 +1,1 @@
+<!-- Make an algorithm that takes the name, age, gender and fixed salary of an employee. Show name and net salary. -->
